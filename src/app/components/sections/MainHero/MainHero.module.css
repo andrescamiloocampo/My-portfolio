@@ -1,0 +1,18 @@
+.dashboard{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding: 2rem;                
+}
+
+.imgContainer{
+    background: black;    
+    height: 400px;
+}
+
+@media screen and (max-width:1200px){
+    .dashboard{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: auto;
+        grid-gap: 2rem;
+    }
+}

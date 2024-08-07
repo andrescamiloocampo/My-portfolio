@@ -1,0 +1,41 @@
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-startcl;
+  gap: 2rem;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, #a2c2e8, #4a90e2, #0066cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  fill: transparent;
+  line-height: 1;
+}
+
+.separator{
+    width: 15rem;
+    height: 0.2rem;
+    background: red;
+    border-radius: 50rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}

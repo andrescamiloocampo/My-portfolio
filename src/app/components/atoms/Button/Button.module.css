@@ -1,0 +1,9 @@
+.btn{
+    background: var(--bg);
+    color: var(--color);
+    font-size: var(--fontSize,1.2rem);
+    padding: var(--padding);
+    border-radius: var(--borderRadius);
+    border: var(--border,none);
+    cursor: pointer;
+}
