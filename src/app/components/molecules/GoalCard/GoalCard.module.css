@@ -1,0 +1,15 @@
+.goalCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;    
+    background: black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.description{
+    padding: 0 2rem;
+    font-weight: 300;
+}
